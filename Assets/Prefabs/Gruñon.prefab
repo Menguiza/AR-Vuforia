@@ -432,8 +432,8 @@ GameObject:
   - component: {fileID: 890573698617596516}
   - component: {fileID: 8308556908977630937}
   - component: {fileID: 539970792873710064}
-  - component: {fileID: 2995131235440748472}
   - component: {fileID: 6510152533546049302}
+  - component: {fileID: 244782722011593697}
   m_Layer: 0
   m_Name: "Gru\xF1on"
   m_TagString: Untagged
@@ -487,7 +487,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 2995131235440748472}
+  mPreview: {fileID: 244782722011593697}
 --- !u!114 &539970792873710064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -628,7 +628,26 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &2995131235440748472
+--- !u!114 &6510152533546049302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921309727705817361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c286a179123d144a86f9de27e93b33a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: Grunon
+  principal: {fileID: 1901748918085030324}
+  infoPopUps:
+  - {fileID: 4362875331515928939}
+  - {fileID: 2994441208232079335}
+  - {fileID: 4601735211119879400}
+  - {fileID: 1197829405816933239}
+--- !u!114 &244782722011593697
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -647,24 +666,6 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 8308556908977630937}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
---- !u!114 &6510152533546049302
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 921309727705817361}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c286a179123d144a86f9de27e93b33a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: Gunon
-  infoPopUps:
-  - {fileID: 4362875331515928939}
-  - {fileID: 2994441208232079335}
-  - {fileID: 4601735211119879400}
-  - {fileID: 1197829405816933239}
 --- !u!1 &969827044674505840
 GameObject:
   m_ObjectHideFlags: 0

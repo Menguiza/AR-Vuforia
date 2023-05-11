@@ -2541,8 +2541,8 @@ GameObject:
   - component: {fileID: 2378334473942464021}
   - component: {fileID: 3990905772224838512}
   - component: {fileID: 8363972577850746604}
-  - component: {fileID: 2758352101491207871}
   - component: {fileID: 4492849416075246150}
+  - component: {fileID: 5615220204030918921}
   m_Layer: 0
   m_Name: Guacara y Eructo
   m_TagString: Untagged
@@ -2595,7 +2595,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 2758352101491207871}
+  mPreview: {fileID: 5615220204030918921}
 --- !u!114 &8363972577850746604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2724,7 +2724,25 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &2758352101491207871
+--- !u!114 &4492849416075246150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4996690056816825215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c286a179123d144a86f9de27e93b33a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: GuacaraEructo
+  principal: {fileID: 6599987065330402043}
+  infoPopUps:
+  - {fileID: 5626698695026794856}
+  - {fileID: 8347079070504039071}
+  - {fileID: 7201518219750961437}
+--- !u!114 &5615220204030918921
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2743,23 +2761,6 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 3990905772224838512}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
---- !u!114 &4492849416075246150
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4996690056816825215}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c286a179123d144a86f9de27e93b33a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: GuacaraEructo
-  infoPopUps:
-  - {fileID: 5626698695026794856}
-  - {fileID: 8347079070504039071}
-  - {fileID: 7201518219750961437}
 --- !u!1 &5061505122873565229
 GameObject:
   m_ObjectHideFlags: 0

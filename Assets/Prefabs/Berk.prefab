@@ -3143,8 +3143,8 @@ GameObject:
   - component: {fileID: 4916024207858425544}
   - component: {fileID: 3178997431977181111}
   - component: {fileID: 2730872726759439870}
-  - component: {fileID: 1727975109619583510}
   - component: {fileID: 3828296998779641177}
+  - component: {fileID: 7792488048046126767}
   m_Layer: 0
   m_Name: Berk
   m_TagString: Untagged
@@ -3198,7 +3198,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1727975109619583510}
+  mPreview: {fileID: 7792488048046126767}
 --- !u!114 &2730872726759439870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3339,7 +3339,26 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &1727975109619583510
+--- !u!114 &3828296998779641177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5775152080767083724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c286a179123d144a86f9de27e93b33a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: Berk
+  principal: {fileID: 2286388371272898477}
+  infoPopUps:
+  - {fileID: 5733577358652396841}
+  - {fileID: 4413121907494159001}
+  - {fileID: 4278029261157196558}
+  - {fileID: 3691399137048962638}
+--- !u!114 &7792488048046126767
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3358,24 +3377,6 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 3178997431977181111}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
---- !u!114 &3828296998779641177
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5775152080767083724}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c286a179123d144a86f9de27e93b33a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: Berk
-  infoPopUps:
-  - {fileID: 5733577358652396841}
-  - {fileID: 4413121907494159001}
-  - {fileID: 4278029261157196558}
-  - {fileID: 3691399137048962638}
 --- !u!1 &6040183447781239819
 GameObject:
   m_ObjectHideFlags: 0

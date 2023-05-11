@@ -1068,8 +1068,8 @@ GameObject:
   - component: {fileID: 1493634489617170629}
   - component: {fileID: 2745143507026512241}
   - component: {fileID: 6294903371434593602}
-  - component: {fileID: 2556536292734390539}
   - component: {fileID: 6140372171026836137}
+  - component: {fileID: 7528482269553413510}
   m_Layer: 0
   m_Name: Muerte Roja
   m_TagString: Untagged
@@ -1094,7 +1094,7 @@ Transform:
   - {fileID: 5919522059887929316}
   - {fileID: 3682014431638168441}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2745143507026512241
 MonoBehaviour:
@@ -1122,7 +1122,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 2556536292734390539}
+  mPreview: {fileID: 7528482269553413510}
 --- !u!114 &6294903371434593602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1200,7 +1200,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: MuerteRoja
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 7867468535907405188}
@@ -1251,7 +1251,25 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &2556536292734390539
+--- !u!114 &6140372171026836137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3836493937075838944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c286a179123d144a86f9de27e93b33a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: MuerteRoja
+  principal: {fileID: 1859782812777051303}
+  infoPopUps:
+  - {fileID: 3575132641251583510}
+  - {fileID: 6156649935976941287}
+  - {fileID: 152542337587431640}
+--- !u!114 &7528482269553413510
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1270,23 +1288,6 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 2745143507026512241}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
---- !u!114 &6140372171026836137
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3836493937075838944}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c286a179123d144a86f9de27e93b33a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: MuerteRoja
-  infoPopUps:
-  - {fileID: 3575132641251583510}
-  - {fileID: 6156649935976941287}
-  - {fileID: 152542337587431640}
 --- !u!1 &3962436590793341707
 GameObject:
   m_ObjectHideFlags: 0

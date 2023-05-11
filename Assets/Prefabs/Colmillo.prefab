@@ -1767,8 +1767,8 @@ GameObject:
   - component: {fileID: 7510767715207472571}
   - component: {fileID: 5430963884124809789}
   - component: {fileID: 5101804076445447708}
-  - component: {fileID: 6119221941178027262}
   - component: {fileID: 4905557176514618241}
+  - component: {fileID: 7010061303003840918}
   m_Layer: 0
   m_Name: Colmillo
   m_TagString: Untagged
@@ -1820,7 +1820,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 6119221941178027262}
+  mPreview: {fileID: 7010061303003840918}
 --- !u!114 &5101804076445447708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1937,7 +1937,24 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &6119221941178027262
+--- !u!114 &4905557176514618241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5323460481713322967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c286a179123d144a86f9de27e93b33a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: Colmillo
+  principal: {fileID: 5451941373896704314}
+  infoPopUps:
+  - {fileID: 8094923458804309471}
+  - {fileID: 8228797172893514614}
+--- !u!114 &7010061303003840918
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1956,22 +1973,6 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 5430963884124809789}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
---- !u!114 &4905557176514618241
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5323460481713322967}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c286a179123d144a86f9de27e93b33a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: Colmillo
-  infoPopUps:
-  - {fileID: 8094923458804309471}
-  - {fileID: 8228797172893514614}
 --- !u!1 &5451941373896704314
 GameObject:
   m_ObjectHideFlags: 0

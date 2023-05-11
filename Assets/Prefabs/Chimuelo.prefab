@@ -2443,7 +2443,7 @@ GameObject:
   - component: {fileID: 7808819639549002335}
   - component: {fileID: 3485566736733576611}
   - component: {fileID: 1802490337067387613}
-  - component: {fileID: 8127976516584604659}
+  - component: {fileID: 6183256862348733379}
   m_Layer: 0
   m_Name: Chimuelo
   m_TagString: Untagged
@@ -2497,7 +2497,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 8127976516584604659}
+  mPreview: {fileID: 6183256862348733379}
 --- !u!114 &3485566736733576611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2651,12 +2651,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Chimuelo
+  principal: {fileID: 2910567235843906599}
   infoPopUps:
   - {fileID: 8872447732819020494}
   - {fileID: 7978667736039652384}
   - {fileID: 788859462063857578}
   - {fileID: 8069856581488996461}
---- !u!114 &8127976516584604659
+--- !u!114 &6183256862348733379
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

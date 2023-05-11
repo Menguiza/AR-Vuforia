@@ -3621,7 +3621,7 @@ GameObject:
   - component: {fileID: 1390434116384101034}
   - component: {fileID: 4514444841170537032}
   - component: {fileID: 5506874840864852655}
-  - component: {fileID: 4745680679177354592}
+  - component: {fileID: 518252916449343422}
   m_Layer: 0
   m_Name: Albondiga
   m_TagString: Untagged
@@ -3675,7 +3675,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 4745680679177354592}
+  mPreview: {fileID: 518252916449343422}
 --- !u!114 &4514444841170537032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3829,12 +3829,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Albondiga
+  principal: {fileID: 5339020996215242257}
   infoPopUps:
   - {fileID: 879236292848632804}
   - {fileID: 5011764767660015755}
   - {fileID: 2591421527085069151}
   - {fileID: 1043299800993326904}
---- !u!114 &4745680679177354592
+--- !u!114 &518252916449343422
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

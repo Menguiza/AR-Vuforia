@@ -1092,8 +1092,8 @@ GameObject:
   - component: {fileID: 5578786612222354325}
   - component: {fileID: 2221796421093878131}
   - component: {fileID: 8265950688558654574}
-  - component: {fileID: 6057520007386728082}
   - component: {fileID: 6524489467250072342}
+  - component: {fileID: 895751940665770140}
   m_Layer: 0
   m_Name: El Mundo Oculto
   m_TagString: Untagged
@@ -1145,7 +1145,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 6057520007386728082}
+  mPreview: {fileID: 895751940665770140}
 --- !u!114 &8265950688558654574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1262,7 +1262,24 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &6057520007386728082
+--- !u!114 &6524489467250072342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6189730504534765710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c286a179123d144a86f9de27e93b33a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: MundoOculto
+  principal: {fileID: 1891856527795926084}
+  infoPopUps:
+  - {fileID: 1980477538929431779}
+  - {fileID: 4769434745370055888}
+--- !u!114 &895751940665770140
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1281,22 +1298,6 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 2221796421093878131}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
---- !u!114 &6524489467250072342
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6189730504534765710}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c286a179123d144a86f9de27e93b33a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: MundoOculto
-  infoPopUps:
-  - {fileID: 1980477538929431779}
-  - {fileID: 4769434745370055888}
 --- !u!1 &6556844544830691642
 GameObject:
   m_ObjectHideFlags: 0

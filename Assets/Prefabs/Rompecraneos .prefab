@@ -3682,8 +3682,8 @@ GameObject:
   - component: {fileID: 3566243295684526360}
   - component: {fileID: 3033541729204028874}
   - component: {fileID: 6973487520718171591}
-  - component: {fileID: 7764735511559764635}
   - component: {fileID: 7408891312421843234}
+  - component: {fileID: 865490597074060266}
   m_Layer: 0
   m_Name: 'Rompecraneos '
   m_TagString: Untagged
@@ -3737,7 +3737,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 7764735511559764635}
+  mPreview: {fileID: 865490597074060266}
 --- !u!114 &6973487520718171591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3878,7 +3878,26 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &7764735511559764635
+--- !u!114 &7408891312421843234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7994740276698914650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c286a179123d144a86f9de27e93b33a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: Rompecraneos
+  principal: {fileID: 8103688754960995689}
+  infoPopUps:
+  - {fileID: 2619779349313101432}
+  - {fileID: 5958410931394078656}
+  - {fileID: 3581062720275279874}
+  - {fileID: 8519010344715637157}
+--- !u!114 &865490597074060266
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3897,24 +3916,6 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 3033541729204028874}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
---- !u!114 &7408891312421843234
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7994740276698914650}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c286a179123d144a86f9de27e93b33a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: Rompecraneos
-  infoPopUps:
-  - {fileID: 2619779349313101432}
-  - {fileID: 5958410931394078656}
-  - {fileID: 3581062720275279874}
-  - {fileID: 8519010344715637157}
 --- !u!1 &8049933201425310622
 GameObject:
   m_ObjectHideFlags: 0

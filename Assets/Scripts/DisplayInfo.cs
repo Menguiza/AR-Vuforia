@@ -20,7 +20,7 @@ public class DisplayInfo : MonoBehaviour
 
         InfoPackage package = (InfoPackage)activePackage[id];
 
-        if(!package.gameObject.activeSelf) package.TurnOnPopUps();
+        if(!package.IsActive) package.TurnOnPopUps();
         else package.TurnOffPopUps();
     }
 

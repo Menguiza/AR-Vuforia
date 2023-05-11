@@ -2212,8 +2212,7 @@ GameObject:
   - component: {fileID: 8635450765230535263}
   - component: {fileID: 6244331334419085190}
   - component: {fileID: 8063852571285706503}
-  - component: {fileID: 1953085713694646384}
-  - component: {fileID: 8984295076773993444}
+  - component: {fileID: 2076288153098624855}
   m_Layer: 0
   m_Name: Salvajibestia
   m_TagString: Untagged
@@ -2266,7 +2265,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 8984295076773993444}
+  mPreview: {fileID: 2076288153098624855}
 --- !u!114 &6244331334419085190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2408,30 +2407,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Salvajibestia
+  principal: {fileID: 7812758572342100707}
   infoPopUps:
   - {fileID: 2357386247202552002}
   - {fileID: 8435117090823159526}
   - {fileID: 4201728654693127703}
---- !u!114 &1953085713694646384
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6194303689610954072}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 8635450765230535263}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Salvajibestia
-  mDatasetName: 
-  mCastedBehaviour: {fileID: 8635450765230535263}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &8984295076773993444
+--- !u!114 &2076288153098624855
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

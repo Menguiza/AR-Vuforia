@@ -487,8 +487,8 @@ GameObject:
   - component: {fileID: 2317047140166518274}
   - component: {fileID: 3462761220801902923}
   - component: {fileID: 3881760080276615803}
-  - component: {fileID: 137517356170144657}
   - component: {fileID: 8736010435601759694}
+  - component: {fileID: 4170012292553890117}
   m_Layer: 0
   m_Name: Furia luminosa
   m_TagString: Untagged
@@ -542,7 +542,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 137517356170144657}
+  mPreview: {fileID: 4170012292553890117}
 --- !u!114 &3881760080276615803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -620,7 +620,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: FuriaLuminosa
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 6240514651834859255}
@@ -695,7 +695,26 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &137517356170144657
+--- !u!114 &8736010435601759694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599546521496137790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c286a179123d144a86f9de27e93b33a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: FuriaLuminosa
+  principal: {fileID: 1607742377423683372}
+  infoPopUps:
+  - {fileID: 734968712599517971}
+  - {fileID: 5976455359866966310}
+  - {fileID: 4976512054843760471}
+  - {fileID: 7366656524028797301}
+--- !u!114 &4170012292553890117
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -714,24 +733,6 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 3462761220801902923}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
---- !u!114 &8736010435601759694
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 599546521496137790}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c286a179123d144a86f9de27e93b33a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: FuriaLuminosa
-  infoPopUps:
-  - {fileID: 734968712599517971}
-  - {fileID: 5976455359866966310}
-  - {fileID: 4976512054843760471}
-  - {fileID: 7366656524028797301}
 --- !u!1 &673230533063124520
 GameObject:
   m_ObjectHideFlags: 0

@@ -4,7 +4,13 @@ using UnityEngine;
 public class InfoPackage : MonoBehaviour
 {
     [SerializeField] private string id;
+    [SerializeField] private GameObject principal;
     [SerializeField] private List<Animator> infoPopUps = new List<Animator>();
+
+    public bool IsActive
+    {
+        get => principal.activeSelf;
+    }
     
     public string ID
     {

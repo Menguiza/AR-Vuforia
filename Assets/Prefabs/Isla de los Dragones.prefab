@@ -163,8 +163,8 @@ GameObject:
   - component: {fileID: 4397409435518337041}
   - component: {fileID: 3323085050625566254}
   - component: {fileID: 6838097533563230661}
-  - component: {fileID: 3750043115848161486}
   - component: {fileID: 4322446173550934970}
+  - component: {fileID: 3222843602049479436}
   m_Layer: 0
   m_Name: Isla de los Dragones
   m_TagString: Untagged
@@ -218,7 +218,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 3750043115848161486}
+  mPreview: {fileID: 3222843602049479436}
 --- !u!114 &6838097533563230661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -359,7 +359,26 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &3750043115848161486
+--- !u!114 &4322446173550934970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112072568508596581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c286a179123d144a86f9de27e93b33a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: IslaDragones
+  principal: {fileID: 4700316157324746287}
+  infoPopUps:
+  - {fileID: 480654499454338746}
+  - {fileID: 4309611552829483393}
+  - {fileID: 5384739251129906110}
+  - {fileID: 4758463892548801140}
+--- !u!114 &3222843602049479436
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -378,24 +397,6 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 3323085050625566254}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
---- !u!114 &4322446173550934970
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 112072568508596581}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c286a179123d144a86f9de27e93b33a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: IslaDragones
-  infoPopUps:
-  - {fileID: 480654499454338746}
-  - {fileID: 4309611552829483393}
-  - {fileID: 5384739251129906110}
-  - {fileID: 4758463892548801140}
 --- !u!1 &922005072014141830
 GameObject:
   m_ObjectHideFlags: 0

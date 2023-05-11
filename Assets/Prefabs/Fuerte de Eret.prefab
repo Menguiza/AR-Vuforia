@@ -578,8 +578,8 @@ GameObject:
   - component: {fileID: 127552386286702122}
   - component: {fileID: 1711617321458072822}
   - component: {fileID: 4907094150743722006}
-  - component: {fileID: 1907685119343801100}
   - component: {fileID: 6808975390898138177}
+  - component: {fileID: 1558098256880000549}
   m_Layer: 0
   m_Name: Fuerte de Eret
   m_TagString: Untagged
@@ -632,7 +632,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1907685119343801100}
+  mPreview: {fileID: 1558098256880000549}
 --- !u!114 &4907094150743722006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -761,7 +761,25 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &1907685119343801100
+--- !u!114 &6808975390898138177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052768302853811674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c286a179123d144a86f9de27e93b33a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: Ert
+  principal: {fileID: 6264328867566029332}
+  infoPopUps:
+  - {fileID: 6964609250604672945}
+  - {fileID: 8015146693366824743}
+  - {fileID: 1519860915716758061}
+--- !u!114 &1558098256880000549
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -780,23 +798,6 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 1711617321458072822}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
---- !u!114 &6808975390898138177
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1052768302853811674}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c286a179123d144a86f9de27e93b33a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: Ert
-  infoPopUps:
-  - {fileID: 6964609250604672945}
-  - {fileID: 8015146693366824743}
-  - {fileID: 1519860915716758061}
 --- !u!1 &1241775038368909466
 GameObject:
   m_ObjectHideFlags: 0
