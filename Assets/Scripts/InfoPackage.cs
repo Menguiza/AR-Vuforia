@@ -5,9 +5,7 @@ public class InfoPackage : MonoBehaviour
 {
     [SerializeField] private string id;
     [SerializeField] private List<Animator> infoPopUps = new List<Animator>();
-
-    private Coroutine startedTask;
-
+    
     public string ID
     {
         get => id.ToLower();
@@ -15,8 +13,6 @@ public class InfoPackage : MonoBehaviour
 
     public void TurnOnPopUps()
     {
-        if(startedTask != null) return;
-        
         foreach (Animator item in infoPopUps)
         {
             item.gameObject.SetActive(true);

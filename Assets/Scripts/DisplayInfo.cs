@@ -7,7 +7,6 @@ public class DisplayInfo : MonoBehaviour
     [SerializeField] private List<InfoPackage> packages = new List<InfoPackage>();
 
     private Hashtable activePackage = new Hashtable();
-    private bool active;
     private string id;
 
     private void Awake()
@@ -21,16 +20,13 @@ public class DisplayInfo : MonoBehaviour
 
         InfoPackage package = (InfoPackage)activePackage[id];
 
-        active = !active;
-        
-        if(active) package.TurnOnPopUps();
+        if(!package.gameObject.activeSelf) package.TurnOnPopUps();
         else package.TurnOffPopUps();
     }
 
     public void SetId(string id)
     {
         this.id = id.ToLower();
-        active = false;
     }
 
     private void SetHashtable()
