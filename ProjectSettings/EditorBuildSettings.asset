@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/HTTYD VR-AR Menu.unity
+    guid: 78e333ea473155a4fa413703be9dce44
+  - enabled: 1
     path: Assets/Scenes/HTTYD VR-AR.unity
     guid: 2ecc8a1ef098c2748a1a7595545d6edc
   m_configObjects: {}
